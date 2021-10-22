@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#facebook {
+  background: rgb(240, 242, 245);
+}
+.faceBody {
+  overflow: hidden;
+  width: 980px;
+  margin: auto;
+  background: rgb(240, 242, 245);
+  padding: 140px 0px;
+}
+.faceMain {
+  margin-bottom: 248px;
+  margin-top: 75px;
+}
+.faceInfo {
+  width: 530px;
+  float: left;
+}
+.faceInfo h1 {
+  font-size: 50px;
+  color: rgb(24, 119, 242);
+  font-family: "arial black";
+}
+img.faceImg {
+  height: 106px;
+  margin: -45px -28px -10px;
+}
+.faceInfo p {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.faceInfo p {
+  font-size: 28px;
+  font-family: sans-serif;
+  color: rgb(28, 30, 33);
+}
+.faceInput {
+  width: 370px;
+  height: 315px;
+  float: left;
+  padding: 15px;
+  margin-left: 42px;
+  margin-top: -80px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 8px 16px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 96%;
+  height: 45px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  color: rgb(24, 119, 242);
+  font-size: 19px;
+  padding-left: 10px;
+  outline: blue;
+  border: 1px solid rgb(221, 223, 226);
+}
+button#faceInBtn a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+button#faceInBtn {
+  width: 100%;
+  height: 48px;
+  background: rgb(24, 119, 242);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+button#faceInBtn p {
+  text-align: center;
+  margin: auto;
+}
+.faceInBody p {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(218, 221, 225);
+}
+.faceInBody p a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+button#faceInBtn2 {
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  outline: 0px;
+  height: 48px;
+  background: rgb(63, 192, 38);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button#faceInBtn2 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+p.faceInPara {
+  width: 352px;
+  margin-top: 55px;
+  display: block;
+  font-family: arial;
+  text-align: center;
+  font-size: 16px;
+}
+p.faceInPara span {
+  text-align: center;
+  font-size: 14px;
+}
+p.faceInPara a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+p.faceInPara a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+.faceInBody p a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+button#faceInBtn:hover {
+  background: rgb(22, 111, 229);
+}
+button#faceInBtn2:hover {
+  background: rgb(54, 164, 32);
+}
